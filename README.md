@@ -115,3 +115,17 @@ this might take __a while__
 
 ## Virtual machine
 If your system is running on a virtual machine the following options might be good to have disabled during this process. They will be described for Gnome.
+
+### Screen lock to OFF
+1. Go to activities top left hand corner
+  * search for _settings_ and open it
+2. Inside _settings_
+  * Look for _privacy_
+    * Change _Screen Lock_ to __OFF__
+
+### Screen blank to Never
+1. Go to activities top left hand corner
+  * search for _settings_ and open it
+2. Inside _settings_
+  * Look for _Power_
+    * Under _Power Saving_ change _Blank screen_ to __OFF__
