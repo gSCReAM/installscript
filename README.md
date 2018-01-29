@@ -74,12 +74,26 @@ and type in your root passwod when asked.
 
 the terminal prefix for normal user `$` should now have been changed to the of a root user `#`
 
+![su](https://github.com/gSCReAM/installscript/blob/master/img/su.png?raw=true)
+
 We can now run the `pa-sys-setup.sh` script by doing the following:
 ```
 # ./pa-sys-setup.sh
 ```
 __15s__ after the script is finished the system will reboot.
 Once the system boots up again we can continue with the second script.
+
+![pa-sys-setup](https://github.com/gSCReAM/installscript/blob/master/img/pa-sys-setup-done.png?raw=true)
+
+#### optional
+After the system has rebooted you can run the following command in a terminal to see what version your on.
+```
+$ lsb_release -a
+```
+
+you should get something that looks like this:
+
+![lsb_release](https://github.com/gSCReAM/installscript/blob/master/img/ls_release-a.png?raw=true)
 
 ### Run the second script.
 Open a terminal. Provided you're in the directory where you previously saved the scripts run the following:
@@ -90,6 +104,8 @@ this will install all packets needed to successfully build the gst-uninstalled e
 
 once the script is finished it will leave us inside of the gst-uninstalled environment and we are now ready to run the last script which has been setup automatically for us.
 
+![pa-gst-setup](https://github.com/gSCReAM/installscript/blob/master/img/pa-gst-setup-done.png?raw=true)
+
 ### Run the third script.
 Inside the gst-uninstalled environment run the following to complete the setup.
 ```
@@ -98,4 +114,4 @@ Inside the gst-uninstalled environment run the following to complete the setup.
 this might take __a while__
 
 ## Virtual machine
-working on it...
+If your system is running on a virtual machine the following options might be good to have disabled during this process. They will be described for Gnome.
