@@ -1,5 +1,8 @@
 
 ## How?
+
+ `#` indicates that a command should be run with root privileges
+ `$` inidcates that a command should be run as a normal user
  1. install debian 9 with a desktop environment
 
  2. login with your user.
